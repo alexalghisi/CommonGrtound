@@ -12,6 +12,7 @@ Open `index.html` in a modern browser. There is no build step or installation.
 - Save listings and create offer/request posts.
 - Start a sample neighbor conversation from a listing.
 - Responsive layouts for desktop and mobile.
+- A product concept board illustrating the sign-up, matching, listing, and chat flows.
 - Posts and saved listings persist in this browser using local storage.
 
 ## MVP scope
