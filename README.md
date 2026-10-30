@@ -1,20 +1,28 @@
-# CommonGround
+# Cohere — Community Sharing App (MVP demo)
 
-A responsive neighborhood sharing MVP based on the contest brief in the supplied screenshot.
+**▶ Live demo: https://alexalghisi.github.io/CommonGrtound/**
 
-## Run it
+Offer what you have, ask for what you need, and match with neighbours nearby.
+Works on desktop and on phones, and can be installed as a PWA ("Add to Home Screen").
 
-Open `index.html` in a modern browser. There is no build step or installation.
+<p>
+  <img src="preview/demo.gif" width="300" alt="App walkthrough" />
+  <img src="preview/admin.png" width="520" alt="Admin dashboard" />
+</p>
 
-## Included
+## Try it
 
-- Browse offer and request listings with keyword, category, availability, and distance filters.
-- Save listings and create offer/request posts.
-- Start a sample neighbor conversation from a listing.
-- Responsive layouts for desktop and mobile.
-- A product concept board illustrating the sign-up, matching, listing, and chat flows.
-- Posts and saved listings persist in this browser using local storage.
+1. Sign up with phone, email, Google or Apple (demo code **123456**)
+2. Tap **＋** and post an offer or request. A neighbour matches within a few seconds and you get a push alert.
+3. Open the chat, tap 📅 to agree a pick-up time, then mark the swap as completed and rate it.
+4. Use the map, distance and category filters to find what's nearby.
+5. Go to Profile → **Open admin dashboard** to moderate flagged cards, manage users and see analytics. Cards that contain words like "sell" are auto-flagged.
 
-## MVP scope
+## Planned production stack
 
-This is a front-end prototype. Listings and saved items are local to the current browser; the seeded neighbors and chat are demonstration content. Shared accounts, cross-device sync, real-time messaging, push/email notifications, secure server-side storage, moderation tools, and deployment require a backend and service credentials.
+Flutter (iOS / Android / PWA) · Supabase (Auth, Postgres + PostGIS, Realtime, Storage, Edge Functions, Row-Level Security) · FCM / APNs push · Next.js admin.
+All traffic over HTTPS, data encrypted at rest.
+
+> This is a front-end demo build. Data is sample data and stays in your browser. Use "Reset demo data" in Profile to start over.
+
+© Alessandro Alghisi
